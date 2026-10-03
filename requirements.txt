@@ -1,0 +1,12 @@
+# Offline mode (benchmark + tests) only needs the first three.
+python-dotenv
+tabulate
+pytest
+# Live mode (LAB_MODE=live) additionally needs LangChain/LangGraph + provider SDKs.
+langchain
+langgraph
+langchain-openai
+langchain-google-genai
+langchain-anthropic
+langchain-ollama
+langchain-openrouter
